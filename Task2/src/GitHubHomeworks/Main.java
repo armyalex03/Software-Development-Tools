@@ -15,5 +15,7 @@ public class Main {
         for (int i : table) {
             System.out.println(i);
         }
+        
+        System.out.println("Hello world");
     }
 }
