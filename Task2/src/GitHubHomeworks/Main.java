@@ -2,7 +2,6 @@ package GitHubHomeworks;
 
 import java.util.Random;
 import java.util.Arrays;
-import java.util.Collections;
 
 public class Main {
 
@@ -12,7 +11,7 @@ public class Main {
         for (int i = 0; i < table.length; i++) {
             table[i] = rand.nextInt(100);
         }
-        Arrays.sort(table, Collections.reverseOrder());
+        Arrays.sort(table);
         for (int i : table) {
             System.out.println(i);
         }
