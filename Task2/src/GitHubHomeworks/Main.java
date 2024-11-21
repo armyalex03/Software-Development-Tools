@@ -13,6 +13,7 @@ public class Main {
             table[i] = rand.nextInt(100);
         }
         Arrays.sort(table, Collections.reverseOrder()); // Reverse sort
+
         for (int i : table) {
             System.out.println(i);
         }
