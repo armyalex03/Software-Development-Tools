@@ -12,7 +12,7 @@ public class Main {
         for (int i = 0; i < table.length; i++) {
             table[i] = rand.nextInt(100);
         }
-        Arrays.sort(table, Collections.reverseOrder()); // Reverse sort
+        Arrays.sort(table); // Reverse sort
         for (int i : table) {
             System.out.println(i);
         }
